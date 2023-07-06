@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		
+
+		<div class="left-side-container">
+			<h1>Hi!</h1>
+			<h2>Here you can generate a random password</h2>
+			<h3 id="note"> <span>Note: </span>You can choose password size between
+				4 to 20 characters.</h3>
+		</div>
+
+		<div class="right-side-container">
+			<div class="tool-container">
+				<!-- <h2>Password Generator</h2> -->
+				<div class="item" id="tool-head">
+					<h2>Password Generator</h2>
+				</div>
+				<div class="item" id="generated-password">
+					<p id="password-text">Your password will shown here.</p>
+				</div>
+				<div class="item" id="item-1">
+					<p class="crieteria-text">Size of password</p>
+				</div>
+				<div class="item" id="item-2">
+					<input type="text" id="size-text" value="4">
+				</div>
+				<div class="item" id="item-3">
+					<p class="crieteria-text">Include Symbol</p>
+				</div>
+				<div class="item" id="item-4">
+					<input class="crieteria-checkbox" type="checkbox" id="special-char">
+				</div>
+				<div class="item" id="item-5">
+					<p class="crieteria-text">Include Number</p>
+				</div>
+				<div class="item" id="item-6">
+					<input class="crieteria-checkbox" type="checkbox" id="number">
+				</div>
+				<div class="item" id="item-7">
+					<p class="crieteria-text">Include LowerCase</p>
+				</div>
+				<div class="item" id="item-8">
+					<input class="crieteria-checkbox" type="checkbox" id="lower-case">
+				</div>
+				<div class="item" id="item-9">
+					<p class="crieteria-text">Include UpperCase</p>
+				</div>
+				<div class="item" id="item-10">
+					<input class="crieteria-checkbox" type="checkbox" id="upper-case">
+				</div>
+				<div class="item" id="last-item">
+					<button id="generate-btn" class="disabled">Generate</button>
+				</div>
+				<div id="error-msg" class="err-msg">Password size should be between 4 to 20 characters!!</div>
+			</div>
+            
+		</div>
+	</div>
+    <div class="copyright">Copyright &copy; Arshad Jamal</div>
+
+	<script src="script.js"></script>
+
+
+</body>
+</html>

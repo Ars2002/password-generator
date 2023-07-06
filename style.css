@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      font-family: 'Ubuntu', sans-serif;
+      background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-02-ksh6qkug.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=671bde82629fba3ee647c5ce1fde5504")
+  }
+  
+  .container{
+      display: grid;
+      height: 90vh;
+      grid-template-columns: 1fr 2fr;
+  }
+  
+  .left-side-container{
+      /* border: 2px solid red; */
+      padding: 3em 2em;
+      font-size: large;
+  }
+  h1{
+      margin: 1em 0;
+  }
+  #note{
+      margin-top: 100px;
+      color: rgb(197, 34, 34);
+  }
+  
+  .right-side-container{
+      justify-self: center;
+      align-self: center;
+  }
+ 
+  
+  .tool-container{
+      color: #b6b6ee;
+      background-color: #1c1ccb;
+      border-radius: 12px;
+      padding: 43px 32px;
+      width: 350px;
+      height: 400px;
+      display: grid;
+      /* grid-template-rows: auto; */
+      row-gap: 10px;
+      grid-template-columns: 290px 1fr;
+  }
+  
+  
+  #tool-head{
+      justify-self: center;
+      grid-column: 1/3;
+  }
+  
+  #generated-password{
+      height: 34px;
+      grid-column: 1/3;    
+  }
+  #password-text{
+      padding: 4px 10px;
+      color: #0b0b82;
+      height: 34px;
+      text-align: left;
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #password-size{
+      display: grid;
+      grid-template-columns: auto auto;
+      border: 1px solid white;
+      height: 34px;
+      background-color: rgb(18, 17, 17);
+  }
+  #size-text{
+      width: 30px;
+      border-style: none;
+      outline: none;
+      background-color: aliceblue;
+  }
+  
+  #last-item{
+      justify-self: center;
+      align-self: center;
+      height: 34px;
+      grid-column: 1/3;
+  }
+  
+  #generate-btn{
+      border: none;
+      border-radius: 10px;
+      font-size: 20px;
+      height: 34px;
+      width: 250px;
+  }
+  
+  .disabled {
+      opacity: 0.6;
+      pointer-events: none;
+    }
+  
+  /* #generate-btn:hover{
+      cursor: pointer;
+      background-color: #1515ae;
+      color: #b6b6ee;
+  } */
+  
+  .crieteria-text{
+      
+      font-size: 20px;
+  }
+  .crieteria-checkbox{
+      width: 30px;
+      height: 20px;
+  }
+  
+  .pressed{
+      opacity: 0.5;
+      cursor: pointer;
+  }
+  
+  .err-msg{
+      display: none;
+      color: rgb(98, 20, 20);
+  }
+
+  .copyright{
+    color: antiquewhite;
+    margin: 10px;
+  }
